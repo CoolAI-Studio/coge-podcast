@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Co哥世界人文探索 - Mission Viejo</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <language>zh-tw</language>
+    <description>深度探索全球歷史人文與傳奇故事</description>
+    <item>
+  <title>【EP1】Mission Viejo - </title>
+  <description><![CDATA[歡迎收聽《Co哥世界人文探索》！
+
+今天我們前進 Mission Viejo，帶您深度挖掘這裡的歷史傳奇與人文精神。
+
+【本集精華】
+【概覽】米申維耶霍座落加州橘郡鞍背谷，意「舊傳教區」，人口約九萬，治安優、獲樹城認證，為全美最大單一計畫總體規劃社區典範。
+【歷史】前身牧場，60年代唐納德·布倫主導，打破平地慣例創「順應地形」革命性規劃（谷道丘居），統一西班牙風建築（灰牆紅瓦）。
+【文化】擁有一英里長人工湖、紀念田徑女皇喬伊娜的奧運公園、全長四英里奧索溪步道及融合後現代風格的特色圖書館。
+【美食】Casita's手工墨西哥捲餅、Cali Curry濃郁印度咖哩、Hatam親民波斯料理、Shin Sushi大師級壽司。
+【小秘訣】緊鄰5/241公路，車站僅停Metrolink（無Amtrak）強烈建議租車；初夏防「五月灰」；住宿推薦Ayres、Fairfield Inn享寧靜。
+
+
+喜歡我們的節目，請記得訂閱並分享！]]></description>
+  <enclosure url="https://archive.org/download/coge-world-podcast/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_audio.mp3" length="3401856" type="audio/mpeg" />
+  <itunes:image href="https://archive.org/download/coge-world-podcast/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.png" />
+  <pubDate>Thu, 25 Jun 2026 16:23:05 GMT</pubDate>
+</item>
+    <!-- ITEMS_HERE -->
+  </channel>
+</rss>
