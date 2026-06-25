@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Co哥世界人文Podcast Podcast</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 40px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 10px; margin-bottom: 30px; }
-        h1 { margin: 0; font-size: 2.5em; }
-        .episode { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        .episode h2 { margin-top: 0; color: #2c3e50; }
-        .date { color: #7f8c8d; font-size: 0.9em; margin-bottom: 15px; }
-        audio { width: 100%; margin-top: 15px; }
-        .footer { text-align: center; margin-top: 40px; color: #95a5a6; font-size: 0.9em; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Co哥世界人文探索 - Podcast 官方網站</title>
+  <!-- Tailwind CSS 引入 -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Co哥世界人文Podcast</h1>
-        <p>深度挖掘全球歷史傳奇與人文精神</p>
-    </header>
-    <div id="episodes">載入中...</div>
-    <div class="footer">© 2026 CoolAI Studio. All rights reserved.</div>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <header class="bg-indigo-900 text-white py-12 text-center shadow-md">
+    <h1 class="text-3xl font-bold">🎙️ Co哥世界人文探索</h1>
+    <p class="mt-2 text-gray-300">深度挖掘全球歷史傳奇、在地文化與傳奇故事</p>
+  </channel>
+  </header>
 
-    <script>
-        fetch('feed.xml')
-            .then(response => response.text())
-            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-            .then(data => {
-                const items = data.querySelectorAll("item");
-                let html = "";
-                items.forEach(el => {
-                    const title = el.querySelector("title").textContent;
-                    const desc = el.querySelector("description").textContent;
-                    const audioUrl = el.querySelector("enclosure").getAttribute("url");
-                    const pubDate = new Date(el.querySelector("pubDate").textContent).toLocaleDateString('zh-TW');
-                    
-                    html += `
-                        <div class="episode">
-                            <h2>${title}</h2>
-                            <div class="date">發佈日期：${pubDate}</div>
-                            <p>${desc.replace(/\n/g, '<br>')}</p>
-                            <audio controls>
-                                <source src="${audioUrl}" type="audio/mpeg">
-                                您的瀏覽器不支援音訊播放。
-                            </audio>
-                        </div>
-                    `;
-                });
-                document.getElementById("episodes").innerHTML = html || "<p>目前還沒有節目上架喔！</p>";
-            })
-            .catch(err => document.getElementById("episodes").innerHTML = "<p>載入節目失敗，請稍後再試。</p>");
-    </script>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <div id="episodes-container" class="space-y-6">
+      <div class="text-center text-gray-500 py-10">正在同步雲端最新集數資訊...</div>
+    </div>
+  </main>
+
+  <script>
+    // 1. 自動定位您 GitHub Page 同目錄下的 RSS Feed! [INDEX_1.1.2]
+    const feedUrl = './feed_world_humanities.xml';
+
+    fetch(feedUrl)
+      .then(response => response.text())
+      .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+      .then(data => {
+        const items = data.querySelectorAll("item");
+        const container = document.getElementById("episodes-container");
+        container.innerHTML = "";
+
+        if (items.length === 0) {
+          container.innerHTML = `<div class="text-center text-gray-500 py-10">目前尚無已上架的集數，敬請期待！</div>`;
+          return;
+        }
+
+        items.forEach(el => {
+          const title = el.querySelector("title").innerHTML;
+          const description = el.querySelector("description").innerHTML;
+          const pubDate = new Date(el.querySelector("pubDate").innerHTML).toLocaleDateString('zh-TW');
+          
+          // 2. 自動提取 S3 上的實體封面圖與音檔連結！ [INDEX_1.1.2, INDEX_1.1.8]
+          const audioUrl = el.querySelector("enclosure").getAttribute("url");
+          const imgEl = el.getElementsByTagName("itunes:image")[0];
+          const imgUrl = imgEl ? imgEl.getAttribute("href") : "https://drive.google.com/uc?export=view&id=12hqlun6rvqAA5DGfNCNP2bQs9zumsT_l";
+
+          const card = `
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6">
+              <img src="${imgUrl}" class="w-32 h-32 rounded-lg object-cover mx-auto md:mx-0 shadow" alt="Episode Cover">
+              <div class="flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="text-sm text-indigo-600 font-semibold mb-1">${pubDate}</div>
+                  <h2 class="text-xl font-bold text-gray-800 mb-2">${title}</h2>
+                  <div class="text-gray-600 text-sm mb-4 whitespace-pre-wrap">${description}</div>
+                </div>
+                <div class="mt-2">
+                  <audio controls class="w-full">
+                    <source src="${audioUrl}" type="audio/mpeg">
+                    您的瀏覽器不支援播放此音檔。
+                  </audio>
+                </div>
+              </div>
+            </div>
+          `;
+          container.innerHTML += card;
+        });
+      })
+      .catch(err => {
+        console.error("Fetch Feed Error: ", err);
+        document.getElementById("episodes-container").innerHTML = `<div class="text-center text-red-500 py-10">資料同步失敗，請確認 feed_world_humanities.xml 檔案已建立！</div>`;
+      });
+  </script>
 </body>
 </html>
