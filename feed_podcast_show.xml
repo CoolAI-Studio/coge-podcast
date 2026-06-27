@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
+    <itunes:author>Producer Co哥</itunes:author>
     <itunes:owner><itunes:name>Producer Co哥</itunes:name><itunes:email>coolaistudio@gmail.com</itunes:email></itunes:owner>
-    <itunes:category text="Society &amp; Culture">
-      <itunes:category text="History"/>
-    </itunes:category>
+    <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
     <title>Co哥世界人文探索 - Mission Viejo</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
     <language>zh-tw</language>
-    <description>深度探索全球歷史人文與傳奇故事</description>
+    <description>這是一個深度探索全球歷史人文與傳奇故事的優質播客節目，帶您走遍世界各個角落，發掘最真實的在地文化與感動。每週定時更新，與您一起見證歷史的軌跡。</description>
+    
     
     
     
@@ -35,7 +35,7 @@
   <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_audio.mp3" length="3401856" type="audio/mpeg" />
   <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.png" />
   <guid isPermaLink="false">coge_podcast_podcast_show_EP1_Mission_Viejo</guid>
-  <pubDate>Sat, 27 Jun 2026 18:08:37 GMT</pubDate>
+  <pubDate>Sat, 27 Jun 2026 18:26:36 GMT</pubDate>
 </item>
     <!-- ITEMS_HERE -->
   </channel>
