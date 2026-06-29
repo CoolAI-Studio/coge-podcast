@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
-    <title>Co哥世界人文探索</title>
+    <title>Co哥世界人文探索 - Mission Viejo</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
     <language>zh-tw</language>
     <copyright>Copyright 2026 Producer Co哥</copyright>
@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.png"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -40,6 +53,7 @@
     
     
     <!-- ITEMS_HERE -->
+  
   <item>
     <title>【EP1】Mission Viejo -</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -57,9 +71,9 @@
 
 喜歡我們的節目，請記得訂閱並分享！]]></description>
     <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_audio.mp3" length="3401856" type="audio/mpeg" />
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.jpg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2%20-%20Mission%20Viejo_EP1_Mission_Viejo_cover.jpg?v=1782703012" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP1_Mission_Viejo</guid>
-    <pubDate>Sat, 27 Jun 2026 19:25:51 GMT</pubDate>
+    <pubDate>Mon, 29 Jun 2026 03:16:51 GMT</pubDate>
   </item>
   </channel>
 </rss>
