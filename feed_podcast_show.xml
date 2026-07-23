@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <description>這是一個深度探索全球歷史人文與傳奇故事的優質播客節目，帶您走遍世界各個角落，發掘最真實的在地文化與感動。每週定時更新，與您一起見證歷史的軌跡。</description>
+    <title>Co哥世界人文探索</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <language>zh-tw</language>
+    <copyright>Copyright 2026 Producer Co哥</copyright>
+    <managingEditor>coolaistudio@gmail.com (Producer Co哥)</managingEditor>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>Producer Co哥</itunes:author>
+    <itunes:owner>
+      <itunes:name>Producer Co哥</itunes:name>
+      <itunes:email>coolaistudio@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="History"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP4_Hy%C3%A8res_cover.jpg"/>
+    <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+  <item>
+    <title>【EP4】Hyères - France</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br /><br />今天我們前進法國耶爾（Hyères），帶您深度挖掘這裡的歷史傳奇與人文精神。<br /><br />【本集精華】<br />【概覽】 位於法國南部蔚藍海岸，素有「棕櫚樹之城」美譽。為歐洲上流社會早期避冬勝地，融合希臘古蹟、中世紀堡壘與前衛藝術。<br /><br />【歷史】 西元前325年建為希臘武裝要塞 Olbia。歷經12世紀聖殿騎士團進駐、二戰「龍騎兵行動」登陸洗禮，亦曾為前蘇聯叛逃特工躲避追捕的隱匿地。<br /><br />【文化】 19世紀吸引《金銀島》作者史蒂文生等文人療養。1920年代落成的立體派建築「諾瓦耶別墅」曾是達利等大師的超現實主義樂園。現今每年舉辦「設計遊行節」與「國際時尚與攝影節」。<br /><br />【美食】 必嚐瓦爾省特有的鷹嘴豆薄餅（Cade）、地中海海鮮與普羅旺斯燉菜。甜點首推爆漿聖特羅佩塔與手工義式冰淇淋。<br /><br />【景點】 登頂耶爾城堡廢墟俯瞰全景、朝聖諾瓦耶別墅；出海探索無車的克羅港海洋國家公園、波克羅勒島（單車與浮潛），或至吉安半島鹽沼保護區尋訪粉紅火烈鳥。<br /><br />【小秘訣】 歷史古城區距海岸4公里，多狹窄鵝卵石徑與陡坡，適合步行。七、八月旺季海濱交通極度壅塞，強烈建議下榻舊城區周圍，免去塞車之苦並體驗道地法式酒館氛圍。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP4_Hy%C3%A8res_audio.mp3" length="4663872" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP4_Hy%C3%A8res_cover.jpg?v=1784787754" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP4_Hyères</guid>
+    <pubDate>Thu, 23 Jul 2026 06:22:33 GMT</pubDate>
+  </item>
+  </channel>
+</rss>
