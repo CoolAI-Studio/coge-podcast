@@ -1,0 +1,6 @@
+{
+  "name": "Co哥世界人文探索",
+  "description": "這是一個深度探索全球歷史人文與傳奇故事的優質播客節目地圖應用，帶您走遍世界各個角落，發掘最真實的在地文化與感動。提供集數存檔與地理位置互動地圖。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

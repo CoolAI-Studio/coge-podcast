@@ -1,0 +1,58 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Primitive Helpers
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+    function incoming() {
+      return request.resource.data;
+    }
+    function existing() {
+      return resource.data;
+    }
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isAdmin() {
+      return isSignedIn() && request.auth.token.email == 'coolaistudio@gmail.com';
+    }
+
+    // Validation Helpers
+    function isValidComment(data) {
+      let hasRequired = data.keys().hasAll(['text', 'authorName', 'authorId', 'createdAt']);
+      let textValid = data.text is string && data.text.size() > 0 && data.text.size() <= 1000;
+      let authorNameValid = data.authorName is string && data.authorName.size() <= 100;
+      let authorIdValid = data.authorId == request.auth.uid;
+      let createdAtValid = data.createdAt == request.time;
+      let isAnonValid = !data.keys().hasAny(['isAnonymous']) || data.isAnonymous is bool;
+      let isPrivValid = !data.keys().hasAny(['isPrivate']) || data.isPrivate is bool;
+      
+      return hasRequired && textValid && authorNameValid && authorIdValid && createdAtValid && isAnonValid && isPrivValid;
+    }
+
+    // 2. Collection Rules
+    match /episodes/{episodeId}/comments/{commentId} {
+      // Anyone can read public comments. Private comments can only be read by author or admin.
+      allow read: if !('isPrivate' in existing()) || existing().isPrivate == false || (isSignedIn() && (existing().authorId == request.auth.uid || isAdmin()));
+      
+      allow create: if isSignedIn()
+        && isValidId(episodeId)
+        && isValidId(commentId)
+        && isValidComment(incoming());
+        
+      allow delete: if isSignedIn() 
+        && isValidId(episodeId)
+        && isValidId(commentId)
+        && existing().authorId == request.auth.uid;
+        
+      // No updates allowed for comments in this simple version
+      allow update: if false;
+    }
+  }
+}

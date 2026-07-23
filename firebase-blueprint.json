@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Comment": {
+      "title": "Comment",
+      "description": "A user comment on an episode",
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "description": "The comment text" },
+        "authorName": { "type": "string", "description": "Display name of the author" },
+        "authorId": { "type": "string", "description": "Firebase Auth UID" },
+        "createdAt": { "type": "timestamp", "description": "Creation timestamp" },
+        "isAnonymous": { "type": "boolean", "description": "Whether the comment is anonymous" },
+        "isPrivate": { "type": "boolean", "description": "Whether the comment is private (only visible to author and admin)" }
+      },
+      "required": ["text", "authorName", "authorId", "createdAt"]
+    }
+  },
+  "firestore": {
+    "episodes/{episodeId}/comments/{commentId}": {
+      "schema": { "$ref": "#/entities/Comment" },
+      "description": "Comments belonging to an episode"
+    }
+  }
+}
