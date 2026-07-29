@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
-    <description>這是一個深度探索全球歷史人文與傳奇故事的優質播客節目，帶您走遍世界各個角落，發掘最真實的在地文化與感動。每週定時更新，與您一起見證歷史的軌跡。</description>
     <title>Co哥世界人文探索</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
     <language>zh-tw</language>
@@ -15,9 +14,24 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP4_Hy%C3%A8res_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP5_Luj%C3%A1n_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
 
+    <description>這是一個深度探索全球歷史人文與傳奇故事的優質播客節目，帶您走遍世界各個角落，發掘最真實的在地文化與感動。每週定時更新，與您一起見證歷史的軌跡。</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
   <item>
     <title>【EP4】Hyères - France</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -26,6 +40,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP4_Hy%C3%A8res_cover.jpg?v=1784787754" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP4_Hyères</guid>
     <pubDate>Thu, 23 Jul 2026 06:22:33 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP5】Luján - Argentina</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進阿根廷盧漢（Luján），帶您深度挖掘這裡的歷史傳奇與人文精神。<br /><br />【本集精華】<br /><br />【概覽】 位於大布宜諾斯艾利斯都會圈外緣（距首都約68至75公里），地處潘帕斯大平原。被尊稱為阿根廷的「信仰之都」，完美揉合百年宗教莊嚴與在地草根韌性。<br /><br />【歷史】 源於1630年平原奇蹟：一輛運載38公分高聖母陶土神像的牛車在盧漢河畔陷入泥沼，唯有卸下神像方能前行，信徒自此定居，促成聖地發展。1755年10月17日正式建鎮。<br /><br />【文化】 擁有強烈雙面性格，伴隨大教堂鐘聲展現極度虔誠；街巷深處則孕育出獨立樂團（如 Sevelhumano）等極具草根氣息與反叛生命力的青年次文化。每年十月初的「青年朝聖」更會吸引數十萬人徒步63公里狂歡朝聖。<br /><br />【美食】 必訪由修女經營的「L'eau Vive de Argentina」品嚐精緻法式與國際料理；亦可至在地烤肉店（Parrilla）大啖炭火厚切牛排，餐後首選濃縮咖啡搭配阿根廷國民甜點「焦糖牛奶夾心餅」。<br /><br />【景點】 朝聖新哥德式建築「盧漢聖母聖殿」（逾百公尺雙尖塔與精緻玫瑰窗）；參觀譽為阿根廷古生物學搖籃的「阿梅吉諾故居市立博物館」；或漫步至盧漢河畔親水步道體驗在地慢活。<br /><br />【小秘訣】 氣候屬濕潤亞熱帶，春秋兩季最宜造訪。強烈建議避開十月初朝聖期及重大天主教節日，以免面臨交通癱瘓與住宿一房難求。交通方面，自駕或長途巴士直達（約1至1.5小時）較火車轉乘（需逾2小時）更為便捷。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP5_Luj%C3%A1n_audio.mp3" length="4837680" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP5_Luj%C3%A1n_cover.jpg?v=1785337178" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP5_Luján</guid>
+    <pubDate>Wed, 29 Jul 2026 14:59:37 GMT</pubDate>
   </item>
   </channel>
 </rss>
