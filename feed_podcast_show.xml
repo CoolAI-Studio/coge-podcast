@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP5_Luj%C3%A1n_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP6_Pilkhua_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <description>這是一個深度探索全球歷史人文與傳奇故事的優質播客節目，帶您走遍世界各個角落，發掘最真實的在地文化與感動。每週定時更新，與您一起見證歷史的軌跡。</description>
     
@@ -31,6 +44,8 @@
     
     
 
+  
+  
   
   <item>
     <title>【EP4】Hyères - France</title>
@@ -49,6 +64,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP5_Luj%C3%A1n_cover.jpg?v=1785337178" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP5_Luján</guid>
     <pubDate>Wed, 29 Jul 2026 14:59:37 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP6】Pilkhua - India</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進印度皮爾庫瓦（Pilkhuwa），帶您深度挖掘這座紡織重鎮的歷史傳奇與硬派日常。<br /><br />【本集精華】<br /><br />【概覽】 位於印度北方邦哈普爾縣，地處國家首都區域（NCR）通勤與工業圈內（距新德里約50至60公里）。作為北印度的紡織後勤基地，這裡完美揉合了傳統神廟的沉香與現代化紡織廠的機油味，展現強烈的工業與庶民對比。<br />【歷史】 地名起源具雙重傳說：野史稱源於12世紀拉其普特國王走失皇家大象（Pil Khuwa），學術界則認為源自當地原生樹種（Pilkhun）。近代歷經多次行政區劃更迭（密拉特、加濟阿巴德、潘奇希爾納加爾），最終於2012年定案歸屬哈普爾縣，造就當地人百折不撓的生存韌性。<br />【文化】 擁有極端衝突的雙面性格，工人在高壓轟鳴的廠房與寧靜純粹的神廟間取得平衡。每逢「九夜節」等傳統節慶，整座城鎮會瞬間切換為狂歡模式，街巷被萬壽菊與油燈淹沒，展現震撼的人神共歡聲浪。<br />【美食】 拒絕精緻擺盤，直擊香料靈魂。強烈建議造訪市集無名小攤，品嚐燙嘴酥脆的炸三角餃、香氣濃郁的鷹嘴豆咖哩，搭配現烤印度烤餅，體驗最生猛的北印度街頭重口味，避開公路旁的噱頭主題餐廳。<br />【景點】 必訪充滿庶民煙火氣的在地神廟（如卡利女神廟）；強烈推薦至布料市集與老闆鬥智殺價，採購高品質純棉印花布與床單。請避開網路謠言：市區內並無「皮爾庫瓦堡」（實為他處泥堡），亦無恆河河壇（需往東行駛40至50公里至加爾穆克特斯瓦爾）。<br />【小秘訣】 夏季氣溫常飆破40度，強烈建議於10月至隔年3月（尤推11至2月）造訪，且因冬季日夜溫差極大，需備妥防風夾克。交通便利，座落於9號國家公路沿線並設有火車站。因當地僅有簡易商務旅館，住宿建議安排於新德里或加濟阿巴德，將此地作為一日遊尋寶勝地。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP6_Pilkhua_audio.mp3" length="3899232" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP6_Pilkhua_cover.jpg?v=1785502264" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP6_Pilkhua</guid>
+    <pubDate>Fri, 31 Jul 2026 12:51:03 GMT</pubDate>
   </item>
   </channel>
 </rss>
