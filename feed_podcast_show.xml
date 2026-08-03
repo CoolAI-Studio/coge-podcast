@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP6_Pilkhua_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP7_Th%E1%BB%9Bi_Lai_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -47,6 +60,9 @@
   
   
   
+  
+  
+  
   <item>
     <title>【EP4】Hyères - France</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -73,6 +89,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP6_Pilkhua_cover.jpg?v=1785502264" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP6_Pilkhua</guid>
     <pubDate>Fri, 31 Jul 2026 12:51:03 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP7】Thới Lai - Vietnam</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進越南原泰來縣地區（Thới Lai），帶您深度挖掘這座湄公河水鄉的歷史傳奇與硬派日常。<br /><br />【本集精華】<br />【概覽】 位於越南芹苴市郊（距市區約20至30公里），地處密集的運河水網中，為一塊極度低平的綠色平原與水鄉澤國。邊界與紅旗縣、烏門區、豐田縣、後江省周城A縣及堅江省交界，人口約10萬至16萬人，用結實纍纍的熱帶水果與無邊際稻田支撐在地生活。<br />【歷史】 早期行政區劃經歷多次調整，於二〇〇八年底正式核定設立泰來縣（二〇〇九年起運作），二〇二五年面臨新基層行政重整。境內掩埋沉重歷史記憶，保留了紀念二十世紀中期游擊戰的「Ông Đưa 戰役勝利遺址」，見證水鄉安寧背後的血淚拚搏。<br />【文化】 生活作息與河水潮汐緊密綁定，展現踏實強韌的草根精神。居民熟練農產加工與編織葉笠，夜間常飄揚著傳統南部民謠「Đờn ca tài tử」，流露湄公河特有的滄桑與灑脫。<br />【美食】 拒絕精緻擺盤，直擊南部河口料理的重口味靈魂。強烈推薦品嚐稻草猛火炙烤的「烤雷魚」、濃郁的「發酵魚火鍋」與酥脆越式煎餅，亦可在鄉間農家咖啡座享用冰滴咖啡。<br />【景點】 必訪莊嚴的「Ông Đưa 戰役勝利遺址」與無邊際金黃稻田。請避開網路謠言：名聞遐邇的「丐冷水上市場」實則隸屬於「丐冷區」，非原泰來地區。<br />【小秘訣】 屬熱帶季風氣候，推薦於旱季（十一月至隔年四月）造訪以進行戶外探索，雨季（五月至十月）則能欣賞最濃綠意與大爆發的水果產量。可自芹苴市區經陸路前往，但核心需搭乘傳統小木船水上漂流（內河導航易飄移，需依賴船伕經驗）。因當地僅有簡易民宿，住宿建議安排於生活機能完善的芹苴市區，將此地作為一日遊尋寶勝地。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br /><br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP7_Th%E1%BB%9Bi_Lai_audio.mp3" length="4243536" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP7_Th%E1%BB%9Bi_Lai_cover.jpg?v=1785730008" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP7_Thới_Lai</guid>
+    <pubDate>Mon, 03 Aug 2026 04:06:47 GMT</pubDate>
   </item>
   </channel>
 </rss>
