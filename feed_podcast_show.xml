@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP8_Awka_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP9_Tangier_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -80,6 +93,11 @@
   
   
   
+  
+  
+  
+  
+  
   <item>
     <title>【EP4】Hyères - France</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -124,6 +142,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP8_Awka_cover.jpg?v=1785979179" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP8_Awka</guid>
     <pubDate>Thu, 06 Aug 2026 01:19:38 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP9】Tangier - Morocco</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進摩洛哥丹吉爾（Tangier），帶您深度挖掘這座扼守非洲之門、在歷史上不斷與列強周旋的傳奇港都。<br /><br />【本集精華】<br />【概覽】 坐落於摩洛哥北部，這裡是地中海與大西洋交會的咽喉。直布羅陀海峽最窄處約十四公里，隔海眺望歐洲大陸的獨特地緣，使丹吉爾成為千年來兵家必爭的「交際花」城市。<br />【歷史】 從古希臘海克力士神話的起源傳說，到十七世紀被當作葡萄牙公主嫁妝轉手給英國的荒謬歲月。二十世紀初更化身為多國共管的國際區，成為間諜、黑市與列強角力的魔幻舞台。<br />【文化】 孕育了十四世紀傳奇旅行家伊本·白圖泰，他的硬核徒步精神深植於此；到了現代，這裡反叛不羈的氣質更吸引了美國「垮掉的一代」作家以及龐克樂團，文化底蘊極其狂野。<br />【美食】 體驗每週五神聖的庫斯庫斯家庭聚會，品嚐挑戰味覺極限的甜鹹奇葩派「巴斯提拉」。別忘了丟掉刀叉，用大餅沾取塔吉鍋精華，再來杯戲稱為「摩洛哥威士忌」的薄荷茶！<br />【景點】 探秘洞口形似非洲大陸輪廓的海克力士洞，前往斯帕特爾角感受雙海交會的壯闊。我們還將帶您解鎖美國在海外取得的第一筆公共財產，一睹俗稱「摩洛哥蒙娜麗莎」的神祕畫作。<br />【小秘訣】 丹吉爾冬季多雨且海風強勁，推薦在微涼舒適的春季來此慢活。市區交通可依賴機場巴士，但舊城區巷弄狹窄、階梯密佈，建議準備輕便行李，並提早預訂傳統的 Riad 庭院旅宿。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP9_Tangier_audio.mp3" length="5010336" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP9_Tangier_cover.jpg?v=1786246160" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP9_Tangier</guid>
+    <pubDate>Sun, 09 Aug 2026 03:29:19 GMT</pubDate>
   </item>
   </channel>
 </rss>
