@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP9_Tangier_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP10_Novoural%E2%80%99sk_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -98,6 +111,12 @@
   
   
   
+  
+  
+  
+  
+  
+  
   <item>
     <title>【EP4】Hyères - France</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -151,6 +170,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP9_Tangier_cover.jpg?v=1786246160" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP9_Tangier</guid>
     <pubDate>Sun, 09 Aug 2026 03:29:19 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP10】Novoural’sk - Russia</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進俄羅斯斯維爾德洛夫斯克州新烏拉爾斯克（Novouralsk），帶您深度挖掘這座隱藏在檢查站後方、長達四十年只能使用代號的冷戰核能封閉城市與周邊山林奇景。<br /><br />【本集精華】<br />【概覽】 新烏拉爾斯克坐落於中烏拉爾山脈東側山麓，距離葉卡捷琳堡約七十公里。這座人口約七萬多人的城市是一座實施嚴格出入管制的封閉行政區（ZATO），一般外國旅客與外地公民皆須依法取得特殊通行許可，才能跨越檢查站一窺其神祕面紗。<br />【歷史】 官方視一九四一年輕合金工廠的建設為當地工業聚落之始。二戰後，蘇聯原子能計畫在此建設鈾濃縮等核燃料設施，讓它在一九五四年以「斯維爾德洛夫斯克-44」的保密代號取得城市地位，直到一九九四年才公開現今的名稱。<br />【文化】 蘇聯時期的重工業與科研精神深深烙印在城市發展中。市區火車站前的普里沃克扎爾納亞廣場上，矗立著一九四九年設立的俄國內戰紀念方尖碑，見證了這片土地上充滿韌性的歷史記憶與工業信仰。<br />【美食】 在嚴密的核工業城鎮裡，當地居民依舊享受著豐富的日常煙火氣。市區內設有提供俄式烤肉、咖啡與烘焙點心的餐廳，在漫長寒冬中為當地科研與製造業人員提供最純粹的溫飽與心靈慰藉。<br />【景點】 市中心有象徵距離起點的「零公里」標誌；若離開管制區前往緊鄰的上涅伊溫斯基，則能欣賞建於一八零四年的歷史建築「瓶形辦公樓」，以及二十世紀初的老醫院與學校，感受截然不同的時空氛圍。<br />【小秘訣】 這裡屬於溫帶大陸性氣候，冬季寒冷多雪。旅客雖可線上查詢旅宿，但最大門檻是必須事先依法規辦理 ZATO 通行許可；若獲准進入並喜歡戶外活動，還能前往周邊山區探索布納爾山岩石群與水溫極低的聖泉浸洗設施。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP10_Novoural%E2%80%99sk_audio.mp3" length="4094496" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP10_Novoural%E2%80%99sk_cover.jpg?v=1786586659" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP10_Novoural’sk</guid>
+    <pubDate>Thu, 13 Aug 2026 02:04:17 GMT</pubDate>
   </item>
   </channel>
 </rss>
