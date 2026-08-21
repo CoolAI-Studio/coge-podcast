@@ -14,8 +14,21 @@
     </itunes:owner>
     <itunes:category text="History"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP10_Novoural%E2%80%99sk_cover.jpg"/>
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP11_Tanauan_cover.jpg"/>
     <atom:link rel="self" href="https://coolai-studio.github.io/coge-podcast/feed_podcast_show.xml" type="application/rss+xml" />
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
@@ -117,6 +130,13 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
   <item>
     <title>【EP4】Hyères - France</title>
     <link>https://coolai-studio.github.io/coge-podcast/</link>
@@ -179,6 +199,15 @@
     <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP10_Novoural%E2%80%99sk_cover.jpg?v=1786586659" />
     <guid isPermaLink="false">coge_podcast_podcast_show_EP10_Novoural’sk</guid>
     <pubDate>Thu, 13 Aug 2026 02:04:17 GMT</pubDate>
+  </item>
+  <item>
+    <title>【EP11】Tanauan - Philippines</title>
+    <link>https://coolai-studio.github.io/coge-podcast/</link>
+    <description><![CDATA[歡迎收聽《Co哥世界人文探索》！<br />今天我們前進菲律賓八打雁省塔納萬市（Tanauan），帶您深度挖掘這座在火山大逃亡與政治風暴中，淬鍊出極度剽悍靈魂的硬核之城。<br /><br />【本集精華】<br /><br />【概覽】 <br />塔納萬市位於八打雁省北部，是馬尼拉都會區南方都市發展帶上的重要樞紐。根據2024年官方人口統計，這座超過二十萬九千人的城市，名稱可能源自他加祿語的「遠眺」，其市區主體位在塔爾湖東側，是一座在警戒與自然威脅中崛起的堅韌堡壘。<br /><br />【歷史】 <br />建城史可追溯至十六世紀晚期，舊城區曾在1754年塔爾火山爆發中遭嚴重破壞，迫使居民大舉遷徙至現址。近代更經歷了行政區的整併與分離，以及2001與2018年兩任市長遭逢致命槍擊的驚悚政治風暴。<br /><br />【文化】 <br />被譽為「高貴英雄的搖籃」，這裡是菲律賓第三任總統勞雷爾，以及被尊為「革命大腦」的思想家馬比尼的故鄉。這片土地長久以來形成的獨立精神與民族主義傳統，是塔納萬最重要的城市文化特色。<br /><br />【美食】 <br />這裡是八打雁靈魂美食的無情戰場！從黏稠濃郁的 Lomi 魯麵、香氣四溢的 Goto 牛肚粥，到最經典的在地餐館現煮 Bulalo 牛骨湯，傳統風味保證給你最直接的蛋白質與脂肪雙重暴擊，最後別忘了來一碗冰涼的 Halo-Halo 刨冰收尾。<br /><br />【景點】 <br />前往市中心感受聖若望福音者教堂的莊嚴，或是尋訪革命英雄馬比尼的歷史紀念地。若想探尋老塔納萬的教堂遺構或瑪麗安果園朝聖地，則需跨越城市邊界前往鄰近的塔利賽與巴萊特市鎮。<br /><br />【小秘訣】 <br />塔納萬屬熱帶季風氣候，11月至4月為較乾燥的旱季。作為大馬尼拉南方交通走廊的節點，推薦選擇主幹道附近的務實型旅宿，方便一早步行至傳統市場與餐館體驗最道地的菲律賓日常。<br /><br />想了解更多資訊，歡迎點擊連結進入《時空對話》與 AI 互動查詢。<br />本集連結：https://aiguide-hub-5c7b8.web.app/?join=4DM-TZZ2<br />喜歡我們的節目，請記得訂閱並分享！]]></description>
+    <enclosure url="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP11_Tanauan_audio.mp3" length="3824352" type="audio/mpeg" />
+    <itunes:image href="https://archive.org/download/coge-world-podcast-v2/Co%E5%93%A5%E4%B8%96%E7%95%8C%E4%BA%BA%E6%96%87%E6%8E%A2%E7%B4%A2_EP11_Tanauan_cover.jpg?v=1787275093" />
+    <guid isPermaLink="false">coge_podcast_podcast_show_EP11_Tanauan</guid>
+    <pubDate>Fri, 21 Aug 2026 01:18:12 GMT</pubDate>
   </item>
   </channel>
 </rss>
