@@ -48,11 +48,21 @@ async function geocodeLocation(locationStr) {
 }
 
 async function run() {
-  try {
-    syncXml();
-  } catch (err) {
-    console.error('Failed to sync XML:', err);
-  }
+  // ⚠️ 這裡**故意不包 try/catch**。
+  //
+  // 舊版是 `try { syncXml(); } catch (err) { console.error(...) }` ——
+  // 錯誤被吞掉之後建置照樣往下走，然後讀 public/ 那份可能已經過期或
+  // 被人動過的 XML，安安靜靜地部署出一份錯的訂閱源，而且 exit code 是 0、
+  // 綠色打勾。訂閱源掉集數這種事不可以是「警告」。
+  //
+  // syncXml() 現在會在下列情況拋錯（見 scripts/sync-xml.js 的規則）：
+  //   · 正本有重複的 guid 或撞號的集數
+  //   · public/ 有正本沒有的集數（代表有人直接改了 public/）
+  //   · 正本的集數比現有的 public/ 還少（正本可能被寫壞了）
+  //
+  // 讓它往上拋 → 建置失敗 → GitHub Pages **保留上一次成功的部署**。
+  // 所以擋下來的後果是「站停在上一版」，不是「掉集數」。
+  syncXml();
 
   let feedXml;
   try {
@@ -128,4 +138,10 @@ async function run() {
   console.log('Saved episodes.json to public directory.');
 }
 
-run().catch(console.error);
+run().catch((err) => {
+  // 一樣的道理：`run().catch(console.error)` 只會印一行紅字，
+  // 然後 exit code 仍然是 0 —— 建置「成功」，錯的訂閱源照樣部署上線。
+  // 這裡明確把離開碼設成 1，讓 GitHub Actions 真的判定失敗。
+  console.error(err instanceof Error ? err.message : err);
+  process.exitCode = 1;
+});
