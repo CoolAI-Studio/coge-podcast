@@ -26,6 +26,15 @@ import path from 'path';
 //   c. public/ 不可以有正本沒有的 guid —— 有的話代表有人直接改了 public/，
 //      這正是 Q1／Q2 的入口，當場擋下來。
 //   d. 正本的集數不可以比現有的 public/ 少（防止正本被整檔覆蓋寫壞）。
+//   e. 頻道封面不可以被改掉。
+//
+// 為什麼要有 (e)：2026-09-05 頻道封面真的被換掉過一次。
+// 我當時的「頻道抬頭沒變動」檢查只比對標籤與文字內容，
+// 而 <itunes:image href="..."> 的網址是**屬性**，不是文字 ——
+// 於是封面被換掉，檢查照樣通過，Spotify 與 Apple 上的節目封面就變了。
+//
+// 製作人的規則是：「archive.org 和 feed 上的封面，上架永遠都不動，
+// 我們只動還沒上架的部分。」現在把它寫成程式碼。
 //
 // 建置失敗時 GitHub Pages 會**保留上一次成功的部署**，
 // 所以「擋下來」的後果是站停在上一版，不是掉集數。
@@ -35,6 +44,32 @@ const ROOT_FEED_PATH = path.join(process.cwd(), 'feed_podcast_show.xml');
 const PUBLIC_FEED_PATH = path.join(process.cwd(), 'public', 'feed_podcast_show.xml');
 
 const ITEM_RE = /<item>[\s\S]*?<\/item>/g;
+
+// 頻道封面。這個值是**故意寫死**的：它就是規則本身。
+// 要換封面必須有人在這裡動手，而且會留在版本紀錄裡 ——
+// 不可以由任何自動流程、任何一次上架、任何一次覆寫悄悄改掉。
+const EXPECTED_CHANNEL_IMAGE =
+  'https://ia800404.us.archive.org/7/items/coge-world-podcast-v2/Podcast%20cover.jpg';
+
+// 頻道層 = 第一個 <item> 之前的部分。單集自己的 <itunes:image> 不算。
+function channelHead(xml) {
+  const i = xml.indexOf('<item>');
+  return i === -1 ? xml : xml.slice(0, i);
+}
+
+function channelImages(xml) {
+  const head = channelHead(xml);
+  const out = [];
+  // 屬性寫法：<itunes:image href="..."/>
+  for (const m of head.matchAll(/<itunes:image[^>]*\shref\s*=\s*"([^"]*)"/g)) {
+    out.push({ where: 'itunes:image[href]', url: m[1].trim() });
+  }
+  // 文字寫法：<image><url>...</url></image>
+  for (const m of head.matchAll(/<image>[\s\S]*?<url>([\s\S]*?)<\/url>[\s\S]*?<\/image>/g)) {
+    out.push({ where: 'image/url', url: m[1].trim() });
+  }
+  return out;
+}
 
 function itemsOf(xml) {
   return xml.match(ITEM_RE) || [];
@@ -102,6 +137,25 @@ export function syncXml() {
     );
   }
 
+  // ── (e) 頻道封面不可以被改掉 ────────────────────────────
+  const images = channelImages(rootContent);
+  if (images.length === 0) {
+    throw new FeedRuleError(
+      '正本的頻道抬頭裡找不到封面（<itunes:image href> 或 <image><url>）。' +
+        '封面掉了會讓 Spotify／Apple 顯示空白節目圖，拒絕建置。'
+    );
+  }
+  const wrong = images.filter((x) => x.url !== EXPECTED_CHANNEL_IMAGE);
+  if (wrong.length) {
+    throw new FeedRuleError(
+      '頻道封面被改掉了：\n' +
+        wrong.map((x) => `  ${x.where} = ${x.url}`).join('\n') +
+        `\n應該是：\n  ${EXPECTED_CHANNEL_IMAGE}\n` +
+        '已上架的封面永遠不動。如果真的要換，請直接改 sync-xml.js 裡的 ' +
+        'EXPECTED_CHANNEL_IMAGE，讓這次更動留在版本紀錄裡。'
+    );
+  }
+
   const publicExists = fs.existsSync(PUBLIC_FEED_PATH);
 
   if (publicExists) {
@@ -133,7 +187,7 @@ export function syncXml() {
   fs.mkdirSync(path.dirname(PUBLIC_FEED_PATH), { recursive: true });
   fs.writeFileSync(PUBLIC_FEED_PATH, rootContent, 'utf8');
   console.log(
-    `✅ 訂閱源規則檢查通過：正本 ${rootItems.length} 集，` +
+    `✅ 訂閱源規則檢查通過：正本 ${rootItems.length} 集、封面 ${images.length} 處都對，` +
       `public/ 已同步成正本的複本${publicExists ? '' : '（原本不存在，已建立）'}。`
   );
   return { count: rootItems.length, created: !publicExists };
